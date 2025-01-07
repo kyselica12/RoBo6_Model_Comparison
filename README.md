@@ -1,6 +1,6 @@
 # Results on RoBo6 dataset
 
-Benchmark result for selected models on the RoBo6 dataset ([link](https://huggingface.co/datasets/kyselica/RoBo6)). 
+Benchmark result for selected models on the RoBo6 dataset ([link](https://huggingface.co/datasets/kyselica/RoBo6)). More information in the paper RoBo6: Standardized MMT Light Curve Dataset for Rocket Body Classification.
 
 Selected models:
 - [`AllworthNet`](./modules/allworth.py) [^2] 
@@ -26,6 +26,16 @@ To run an evaluation experiment use `main.py` script. Configurations for each mo
 
 
 ==================================================
+CITATION
+@article{kyselica2024robo6,
+  title={RoBo6: Standardized MMT Light Curve Dataset for Rocket Body Classification},
+  author={Kyselica, Daniel and {\v{S}}uppa, Marek and {\v{S}}ilha, Ji{\v{r}}{\'\i} and {\v{D}}urikovi{\v{c}}, Roman},
+  journal={arXiv preprint arXiv:2412.00544},
+  year={2024}
+}
+
+## References:
+
 
 [^1] https://huggingface.co/datasets/kyselica/RoBo6
 
